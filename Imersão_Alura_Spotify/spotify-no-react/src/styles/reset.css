@@ -1,0 +1,54 @@
+/* Reset CSS - Remove estilos padrão do navegador */
+
+/* Remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corrige estilos de listas */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Remove decorações de links */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Reseta estilos de botões e inputs */
+  button, input, textarea, select {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+  }
+  
+  /* Define uma base para fontes */
+  body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  /* Define imagens responsivas */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Define uma altura mínima para HTML e Body */
+  html, body {
+    min-height: 100vh;
+  }
+  
+  /* Remove estilos de tabelas padrão */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
